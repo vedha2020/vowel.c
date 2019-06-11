@@ -8,8 +8,8 @@ int main()
 	vowel1=(c=='a'||c=='e'||c=='i'||c=='o'||c=='u');
 	vowel2=(c=='A'||c=='E'||c=='I'||c=='O'||c=='U');
 	if(vowel1||vowel2)
-	printf("%c Vowel",c);
+	printf("Vowel");
 	else
-	printf("%c Consonant",c);
+	printf("Consonant");
 	return 0;
 }
